@@ -11,6 +11,8 @@ public class DemoController {
     @RequestMapping("/test")
     public String demo(){
         System.out.println("进入demo方法");
+       //throw new IllegalArgumentException("抛出异常");
+       // int i = 5/0;
         return "hello demo";
     }
 }

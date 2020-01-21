@@ -1,15 +1,13 @@
 package com.example.demo.filter;
 
 
-import org.springframework.context.annotation.ComponentScan;
+
 import org.springframework.stereotype.Component;
 
 import javax.servlet.*;
-import javax.servlet.annotation.WebFilter;
 import java.io.IOException;
 import java.util.Date;
-
-@Component
+//@Component
 public class TimeFilter implements Filter {
 
     @Override
